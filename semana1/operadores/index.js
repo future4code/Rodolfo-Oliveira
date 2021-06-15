@@ -61,7 +61,7 @@
 
 //Exercicio 4
 
-
+// Eu tinha feito esse exercicio errado, estou corrigindo o mesmo.
 let numero = Number (prompt ("Por favor, insira um numero"))
 let numeroDois = Number (prompt ("Por favor, insira um numero diferente do anterior"))
 
@@ -151,9 +151,11 @@ console.log ("O segundo numero é divisível pelo primeiro?", numeroDois % numer
 
 //D:
 
-// let milhas =Number (prompt("Digite quantas milhas deseja converter:"))
-// let metros =Number (milhas/0.00062137)
+let milhas =Number (prompt("Digite quantas milhas deseja converter:"))
+let metros =Number (milhas/0.00062137)
 
-// console.log (milhas, "milhas equivalem a", metros,"metros.")
+console.log (milhas, "milhas equivalem a", metros,"metros.")
+
+//Agora sim acabou.
 
 
