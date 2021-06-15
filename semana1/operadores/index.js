@@ -68,8 +68,8 @@ let numeroDois = Number (prompt ("Por favor, insira um numero diferente do anter
 
 console.log ("O primeiro numero é maior que segundo?", numero >= numeroDois )
 console.log ("O primeiro numero é igual ao segundo?", numero == numeroDois)
-console.log ("O primeiro numero é divisível pelo segundo?", numero >= numeroDois)
-console.log ("O segundo numero é divisível pelo primeiro?", numero <= numeroDois)
+console.log ("O primeiro numero é divisível pelo segundo?", numero % numeroDois === 0)
+console.log ("O segundo numero é divisível pelo primeiro?", numeroDois % numero === 0)
 
 //Desafio 1
 // A:
