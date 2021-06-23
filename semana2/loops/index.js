@@ -81,4 +81,27 @@ for (let i = 0; i<tamanho; i++){
 }
 console.log (novoArray)
 //D
-const arrayStrings = []
+const stringArray = ["lasanha", "feijoada", "macarrão", "pudim", "churrasco"]
+const arrayStringsNova = (arrayStrings) => {
+    const comidas = []
+    for (let i = 0; i < arrayStrings.length; i++){
+        comidas.push(`O elemento do índice ${arrayStrings.indexOf(arrayStrings[i])} é ${arrayStrings[i]}`)
+    }
+    return comidas
+}
+console.log (arrayStringsNova(stringArray))
+
+//e:
+function pegaMaiorOuMenorNumero (arrayOriginal){
+    let maiorNumero = 0;
+    let menorNumero = Infinity;
+    for(let i = 0; i < arrayOriginal.length; i++){
+        if(arrayOriginal[i]<menorNumero){
+            menorNumero = arrayOriginal[i]
+        }else if(arrayOriginal[i] > maiorNumero){
+            maiorNumero = arrayOriginal[i]
+        }
+    }
+    console.log (`O maior numero é ${maiorNumero}, e o menor numero é ${menorNumero}`)
+}
+pegaMaiorOuMenorNumero(arrayOriginal)
