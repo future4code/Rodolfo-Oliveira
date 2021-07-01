@@ -30,7 +30,8 @@ img {
 }
 
 div>p:first-child {
-    display: inline;
+        display: inline;
+    
 }
 
 div img {
@@ -60,7 +61,9 @@ div img {
 .icone {
     height: 15px;
 }
-
+.container:first-of-type p {
+    line-height: 10;
+}
 
 /** 
   *
@@ -74,7 +77,7 @@ div img {
 }
 
 #container-de-descricao>ol {
-    padding: 15px 0px;
+    padding: 25px 0px;
 }
 
 #container-para-comprar {
@@ -115,7 +118,10 @@ td button {
     margin-top: 20px;
     height: 100px;
 }
-
+.posrelativa {
+    position: relative;
+    height: 60px;
+}
 
 #back-button {
     background-color: white;
