@@ -54,7 +54,9 @@ div img {
     height: 500px;
     text-align: center;
 }
-
+.botao-comprar {
+    height: 0px;
+}
 .icone {
     height: 15px;
 }
