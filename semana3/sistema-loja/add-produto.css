@@ -1,0 +1,18 @@
+h1 {
+    color:red;
+    background-color: black;
+    text-align: center;
+}
+p {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a {
+    padding-left: 1cm;
+}
+.imagem {max-width: 100px;
+}
+div {
+    text-align: center;
+  }
