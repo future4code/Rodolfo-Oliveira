@@ -1,0 +1,19 @@
+.icones {
+    width: 20px;
+}
+.container-header {
+    display: flex;
+    flex-direction: row;
+    background-color: mediumvioletred;
+    justify-items: flex-start;
+    
+}
+
+.container-links {
+    display: grid;
+    background-color: #f2d0e0;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+    width: 200px;
+    height:;
+}
