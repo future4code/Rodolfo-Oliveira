@@ -1,0 +1,45 @@
+body{
+    background-image: url(./img/IMG_3638.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #cccccc;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
+h1{
+    color: white;
+}
+.container-informacoes {
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+.container-listas{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    width: 33%;
+}
+.container-listas2{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: inline-block;
+    height: 150px;
+    width: 33%;
+}
+
+.galeria{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: white;
+}
+.formulario{
+    color: white;
+    text-align: center;
+}
+.container {
+    text-align: center;
+}
+.imagem {
+    max-width: 100px;
+}
