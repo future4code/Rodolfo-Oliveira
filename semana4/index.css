@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-principal {
+    display: grid;
+    grid-template-rows: 60px 1fr 60px ;
+    grid-template-columns: 200px 1fr;
+}
+header {
+    display: flex;
+    background-color: mediumvioletred;
+    justify-content: space-between;    /*separa os items*/
+    align-items: center;
+    padding: 0 20px;
+    grid-column: 1 / -1; /*é a forma de selecionar a linha toda*/
+}
+.icone {
+    height: 1.7em; /*ajusta a imagem de acordo com o tamanho da fonte*/
+    margin-right: 12px; /*margem entre o icone e o texto*/   
+}
+.icone-e-texto {
+    display: flex;
+    align-items:center;
+}
+
+nav {
+    background-color: #f2d0e8;
+    padding: 10px;
+}
+.botao-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+.card-produto {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* o elemento p é um elemento de texto*/
+    box-shadow: 2px 2px 5px darkgray; /* propriedades do box shadow são altura, comprimento e blur */
+    margin: 15px;
+}
+.imagem-card {
+    width: 100%; /*porcentagem define o tamanho da iamgem dentro do card*/
+}
+footer {
+    background-color: mediumvioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1 / -1;
+}
