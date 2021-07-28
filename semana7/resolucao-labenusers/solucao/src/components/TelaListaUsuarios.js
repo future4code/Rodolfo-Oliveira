@@ -55,7 +55,7 @@ export default class TelaListaUsuarios extends React.Component {
         const listaUsuarios= this.state.usuarios.map((user) =>{
             return (<CardUsuario key={user.id}>
                 {user.name}
-                <button onClick={() => this.deletarUsuario(user.id)}>X</button>
+                <button onClick={() =>{if(window.confirm('Tem Certeza que deseja deletar esse usuario?')) this.deletarUsuario(user.id)}}>X</button>
                 </CardUsuario>)
         })
         return(
