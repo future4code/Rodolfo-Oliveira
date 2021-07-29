@@ -17,9 +17,10 @@ export default class App extends React.Component {
     usuarios: [],
     inputNome: "",
     inputEmail: "",
-  };
-
-
+  }
+componentDidMount() {
+  this.pegarListaUsuarios()
+}  
 mundaInputNome = (event) => {
   this.setState({inputNome: event.target.value})
 }
@@ -34,25 +35,25 @@ pegarListaUsuarios = () => {
     .then((res) =>{
       this.setState({usuarios: res.data.result.list });
     })
-    .catch((err) =>{
-      alert(err.response.data)
-    });
+    .catch((err) => {
+      alert(err.response)
+      });
 };
 criaNovoUsuario = () => {
   const body = {
-    "name": this.state.inputNome,
-    "email": this.state.inputEmail
+    name: this.state.inputNome,
+    email: this.state.inputEmail
   };
   axios
     .post(urlCadastro, body, headers)
     .then((res) => {
-      this.setState({inputEmail: ""},);
-      this.setState({inputNome: ""})
+      this.setState({inputNome: ""});
+      this.setState({inputEmail: ""});
       this.pegarListaUsuarios();
       console.log(res)
     })
     .catch((err) => {
-      alert("blablalba");
+      alert(err.response);
       console.log(err)
     });
 }
