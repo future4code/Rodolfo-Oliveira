@@ -5,7 +5,7 @@ import AddRecipesPage from "../pages/AddRecipesPage/AddRecipesPage";
 import SignUpPage from "../pages/SignUpPage/SignUpPage";
 import RecipesListPage from "../pages/RecipesListPage/RecipesListPage";
 import RecipesDetailPage from "../pages/RecipesDetailPage/RecipesDetailPage"
-import ErrorPage from "../pages/ErrorPage/ErrorPage.Js";
+import ErrorPage from "../pages/ErrorPage/ErrorPage.js";
 import Header from "../components/Header/Header";
 
 

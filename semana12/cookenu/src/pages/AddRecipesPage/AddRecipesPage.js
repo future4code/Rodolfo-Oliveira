@@ -1,13 +1,19 @@
-import React from "react"
-import { Button } from "@material-ui/core"
-import useProtectedPage from "../../hooks/useProtectedPage"
+import React from 'react'
+import useProtectedPage from '../../hooks/useProtectedPage'
+import { RecipeContainer, ScreenContainer } from './styled'
+import AddRecipesForm from './AddRecipesForm'
+import Typography from '@material-ui/core/Typography'
 
-const AddRecipesPage = () => {
+const AddRecipePage = () => {
     useProtectedPage()
     return (
-        <div>
-            <h1>AddRecipesPage</h1>
-        </div>
+        <ScreenContainer>
+            <RecipeContainer>
+                <Typography gutterBottom variant={'h4'} align={'center'} color={'textPrimary'}>Adicionar Receita</Typography>
+                <AddRecipesForm />
+            </RecipeContainer>
+        </ScreenContainer>
     )
 }
-export default AddRecipesPage
+
+export default AddRecipePage
