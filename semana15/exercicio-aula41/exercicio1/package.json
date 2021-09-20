@@ -1,0 +1,12 @@
+{
+  "name": "exercicio1",
+  "version": "1.0.0",
+  "description": "\"Exercicio executado na aula 41\"",
+  "main": "NameAndAge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm NameAndAge.js"
+  },
+  "author": "Rodolfo Dornelas",
+  "license": "ISC"
+}

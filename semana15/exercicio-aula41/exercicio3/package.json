@@ -1,0 +1,12 @@
+{
+  "name": "exercicio3",
+  "version": "1.0.0",
+  "description": "\"Exercicio realizado na aula 41\"",
+  "main": "ToDoTaskList.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ToDoTaskList.js"
+  },
+  "author": "Rodolfo Dornelas",
+  "license": "ISC"
+}
