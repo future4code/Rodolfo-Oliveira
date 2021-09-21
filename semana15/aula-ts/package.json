@@ -1,0 +1,12 @@
+{
+  "name": "aula-ts",
+  "version": "1.0.0",
+  "description": "\"Pacote para controle da minha aula sobre typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
