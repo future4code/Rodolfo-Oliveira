@@ -1,0 +1,17 @@
+{
+  "name": "template-node-npm",
+  "version": "1.0.0",
+  "description": "template-aula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "search-country-by-name":"node index.js"
+  },
+  "author": "Labenu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.17.1",
+    "typescript": "^4.4.3"
+  }
+}
